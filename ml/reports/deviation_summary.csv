@@ -1,0 +1,979 @@
+timestamp,plant_id,actual_ac_power,predicted_ac_power,residual,absolute_deviation,deviation_percentage,severity,contributing_conditions,investigation_status
+2020-06-12 21:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 21:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 21:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 21:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 22:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-12 23:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 00:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 01:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 02:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 03:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 04:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 05:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 05:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 05:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 05:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 05:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 05:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 05:45:00,4135001,0.0,12.22,-12.22,12.22,,Normal,[],CLEARED
+2020-06-13 05:45:00,4136001,0.0,13.7,-13.7,13.7,,Normal,[],CLEARED
+2020-06-13 06:00:00,4135001,198.86,158.12,40.75,40.75,25.77,Normal,[],CLEARED
+2020-06-13 06:00:00,4136001,56.75,62.42,-5.68,5.68,-9.09,Normal,[],CLEARED
+2020-06-13 06:15:00,4135001,768.37,762.82,5.55,5.55,0.73,Normal,[],CLEARED
+2020-06-13 06:15:00,4136001,875.88,868.88,7.0,7.0,0.81,Normal,[],CLEARED
+2020-06-13 06:30:00,4135001,1268.86,1367.23,-98.37,98.37,-7.19,Moderate Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],CLEARED
+2020-06-13 06:30:00,4136001,1520.57,1544.59,-24.02,24.02,-1.55,Normal,[],CLEARED
+2020-06-13 06:45:00,4135001,2311.65,2295.64,16.01,16.01,0.7,Normal,[],CLEARED
+2020-06-13 06:45:00,4136001,2379.4,2468.32,-88.92,88.92,-3.6,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 07:00:00,4135001,3861.66,4499.94,-638.28,638.28,-14.18,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 07:00:00,4136001,4134.13,4177.81,-43.68,43.68,-1.05,Normal,[],CLEARED
+2020-06-13 07:15:00,4135001,5687.09,6068.53,-381.44,381.44,-6.29,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 07:15:00,4136001,3907.06,4087.4,-180.33,180.33,-4.41,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 07:30:00,4135001,7275.59,7104.17,171.42,171.42,2.41,Normal,[],CLEARED
+2020-06-13 07:30:00,4136001,7322.08,7072.05,250.03,250.03,3.54,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 07:45:00,4135001,9254.08,9135.83,118.26,118.26,1.29,Normal,[],CLEARED
+2020-06-13 07:45:00,4136001,6080.06,6332.41,-252.34,252.34,-3.98,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 08:00:00,4135001,11227.26,11429.0,-201.75,201.75,-1.77,Normal,[],CLEARED
+2020-06-13 08:00:00,4136001,7939.04,8082.83,-143.8,143.8,-1.78,Normal,[],CLEARED
+2020-06-13 08:15:00,4135001,13497.03,13662.86,-165.83,165.83,-1.21,Normal,[],CLEARED
+2020-06-13 08:15:00,4136001,9365.03,9548.13,-183.09,183.09,-1.92,Normal,[],CLEARED
+2020-06-13 08:30:00,4135001,14846.35,14638.56,207.79,207.79,1.42,Normal,[],CLEARED
+2020-06-13 08:30:00,4136001,7718.36,7525.46,192.9,192.9,2.56,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 08:45:00,4135001,15990.11,15935.9,54.21,54.21,0.34,Normal,[],CLEARED
+2020-06-13 08:45:00,4136001,12153.68,12026.25,127.42,127.42,1.06,Normal,[],CLEARED
+2020-06-13 09:00:00,4135001,17054.62,16866.67,187.95,187.95,1.11,Normal,[],CLEARED
+2020-06-13 09:00:00,4136001,13477.82,13450.12,27.71,27.71,0.21,Normal,[],CLEARED
+2020-06-13 09:15:00,4135001,18049.64,17191.42,858.22,858.22,4.99,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 09:15:00,4136001,7758.38,7799.56,-41.18,41.18,-0.53,Normal,[],CLEARED
+2020-06-13 09:30:00,4135001,17396.04,17851.81,-455.78,455.78,-2.55,Normal,[],CLEARED
+2020-06-13 09:30:00,4136001,13610.4,13232.13,378.28,378.28,2.86,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 09:45:00,4135001,18726.48,19157.68,-431.2,431.2,-2.25,Normal,[],CLEARED
+2020-06-13 09:45:00,4136001,5864.74,14620.64,-8755.9,8755.9,-59.89,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 10:00:00,4135001,19239.61,17708.88,1530.73,1530.73,8.64,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 10:00:00,4136001,10282.49,12508.46,-2225.97,2225.97,-17.8,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 10:15:00,4135001,22164.65,21648.6,516.06,516.06,2.38,Normal,[],CLEARED
+2020-06-13 10:15:00,4136001,12577.24,12669.99,-92.75,92.75,-0.73,Normal,[],CLEARED
+2020-06-13 10:30:00,4135001,24857.71,23944.3,913.41,913.41,3.81,Moderate Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",CLEARED
+2020-06-13 10:30:00,4136001,3506.09,12773.3,-9267.21,9267.21,-72.55,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 10:45:00,4135001,23407.57,20748.7,2658.86,2658.86,12.81,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 10:45:00,4136001,0.0,12292.42,-12292.42,12292.42,-100.0,Extreme Deviation,"['Severe generation deficit under strong solar irradiance (> 0.35 kW/m²). Indicates probable inverter trip, AC breaker trip, or substation curtailment.']",REQUIRES_INSPECTION
+2020-06-13 11:00:00,4135001,23667.83,20887.52,2780.31,2780.31,13.31,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 11:00:00,4136001,7473.69,12918.75,-5445.06,5445.06,-42.15,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 11:15:00,4135001,27388.46,24851.13,2537.33,2537.33,10.21,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 11:15:00,4136001,10710.09,11139.28,-429.19,429.19,-3.85,Normal,[],CLEARED
+2020-06-13 11:30:00,4135001,26818.5,22821.96,3996.54,3996.54,17.51,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 11:30:00,4136001,10043.41,11274.24,-1230.82,1230.82,-10.92,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 11:45:00,4135001,27300.38,25994.71,1305.67,1305.67,5.02,Significant Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 11:45:00,4136001,10893.55,11211.02,-317.47,317.47,-2.83,Normal,[],CLEARED
+2020-06-13 12:00:00,4135001,27843.32,23869.92,3973.4,3973.4,16.65,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 12:00:00,4136001,12727.11,12127.15,599.96,599.96,4.95,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 12:15:00,4135001,23390.05,22786.86,603.18,603.18,2.65,Moderate Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",CLEARED
+2020-06-13 12:15:00,4136001,15280.31,13545.57,1734.75,1734.75,12.81,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 12:30:00,4135001,25436.93,22792.32,2644.62,2644.62,11.6,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 12:30:00,4136001,15102.4,14996.61,105.79,105.79,0.71,Normal,[],CLEARED
+2020-06-13 12:45:00,4135001,26291.6,22920.67,3370.93,3370.93,14.71,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 12:45:00,4136001,10264.11,9063.03,1201.08,1201.08,13.25,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 13:00:00,4135001,21083.95,19053.3,2030.65,2030.65,10.66,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 13:00:00,4136001,13966.16,12084.72,1881.44,1881.44,15.57,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 13:15:00,4135001,19115.6,18438.98,676.62,676.62,3.67,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 13:15:00,4136001,12035.44,10464.44,1571.0,1571.0,15.01,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 13:30:00,4135001,16697.99,16674.32,23.67,23.67,0.14,Normal,[],CLEARED
+2020-06-13 13:30:00,4136001,12264.24,11472.77,791.47,791.47,6.9,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 13:45:00,4135001,18010.31,18505.21,-494.9,494.9,-2.67,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 13:45:00,4136001,5923.23,8592.72,-2669.49,2669.49,-31.07,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 14:00:00,4135001,26234.93,23863.63,2371.3,2371.3,9.94,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 14:00:00,4136001,13095.15,12195.04,900.11,900.11,7.38,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 14:15:00,4135001,23956.28,21987.51,1968.77,1968.77,8.95,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-13 14:15:00,4136001,10979.84,12807.51,-1827.67,1827.67,-14.27,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 14:30:00,4135001,18872.21,18232.81,639.41,639.41,3.51,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 14:30:00,4136001,18154.37,11134.95,7019.43,7019.43,63.04,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 14:45:00,4135001,22672.34,21253.91,1418.42,1418.42,6.67,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 14:45:00,4136001,8666.57,10486.43,-1819.86,1819.86,-17.35,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 15:00:00,4135001,22317.88,21074.93,1242.95,1242.95,5.9,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 15:00:00,4136001,12510.53,12542.25,-31.72,31.72,-0.25,Normal,[],CLEARED
+2020-06-13 15:15:00,4135001,21348.47,21055.79,292.68,292.68,1.39,Normal,[],CLEARED
+2020-06-13 15:15:00,4136001,15353.45,12592.47,2760.99,2760.99,21.93,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 15:30:00,4135001,16370.36,16629.92,-259.55,259.55,-1.56,Normal,[],CLEARED
+2020-06-13 15:30:00,4136001,14974.68,12239.98,2734.7,2734.7,22.34,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 15:45:00,4135001,12491.44,12668.1,-176.66,176.66,-1.39,Normal,[],CLEARED
+2020-06-13 15:45:00,4136001,14478.49,12801.45,1677.03,1677.03,13.1,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 16:00:00,4135001,14540.52,14560.97,-20.45,20.45,-0.14,Normal,[],CLEARED
+2020-06-13 16:00:00,4136001,9314.87,9132.36,182.51,182.51,2.0,Normal,[],CLEARED
+2020-06-13 16:15:00,4135001,6426.11,6638.01,-211.91,211.91,-3.19,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 16:15:00,4136001,13120.1,10588.63,2531.47,2531.47,23.91,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 16:30:00,4135001,8098.91,8153.09,-54.18,54.18,-0.66,Normal,[],CLEARED
+2020-06-13 16:30:00,4136001,9050.48,8213.9,836.58,836.58,10.18,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 16:45:00,4135001,4521.49,4600.45,-78.97,78.97,-1.72,Normal,[],CLEARED
+2020-06-13 16:45:00,4136001,10085.89,9099.5,986.39,986.39,10.84,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 17:00:00,4135001,3533.36,3740.5,-207.14,207.14,-5.54,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 17:00:00,4136001,10614.09,9737.3,876.8,876.8,9.0,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 17:15:00,4135001,3818.41,3785.16,33.24,33.24,0.88,Normal,[],CLEARED
+2020-06-13 17:15:00,4136001,6014.27,5801.59,212.68,212.68,3.67,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 17:30:00,4135001,2661.0,2688.91,-27.92,27.92,-1.04,Normal,[],CLEARED
+2020-06-13 17:30:00,4136001,4274.77,4135.29,139.48,139.48,3.37,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 17:45:00,4135001,2014.17,2106.8,-92.63,92.63,-4.4,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-13 17:45:00,4136001,2870.2,2556.68,313.52,313.52,12.26,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 18:00:00,4135001,1269.98,1452.42,-182.44,182.44,-12.56,Significant Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],REQUIRES_INSPECTION
+2020-06-13 18:00:00,4136001,2630.45,2481.68,148.77,148.77,5.99,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-13 18:15:00,4135001,609.98,611.4,-1.43,1.43,-0.23,Normal,[],CLEARED
+2020-06-13 18:15:00,4136001,1476.19,1439.27,36.92,36.92,2.57,Normal,[],CLEARED
+2020-06-13 18:30:00,4135001,146.7,171.76,-25.06,25.06,-14.59,Normal,[],CLEARED
+2020-06-13 18:30:00,4136001,598.56,596.93,1.63,1.63,0.27,Normal,[],CLEARED
+2020-06-13 18:45:00,4135001,0.0,12.84,-12.84,12.84,,Normal,[],CLEARED
+2020-06-13 18:45:00,4136001,31.84,14.75,17.09,17.09,,Normal,[],CLEARED
+2020-06-13 19:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 19:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 19:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 19:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 19:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 19:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 19:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 19:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 20:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 21:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 22:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-13 23:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 00:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 01:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 02:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 03:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 04:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 05:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 05:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 05:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 05:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 05:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 05:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 05:45:00,4135001,0.0,12.22,-12.22,12.22,,Normal,[],CLEARED
+2020-06-14 05:45:00,4136001,0.0,13.7,-13.7,13.7,,Normal,[],CLEARED
+2020-06-14 06:00:00,4135001,102.89,142.67,-39.78,39.78,-27.88,Normal,[],CLEARED
+2020-06-14 06:00:00,4136001,295.82,284.6,11.22,11.22,3.94,Normal,[],CLEARED
+2020-06-14 06:15:00,4135001,681.8,659.41,22.39,22.39,3.4,Normal,[],CLEARED
+2020-06-14 06:15:00,4136001,998.53,927.82,70.71,70.71,7.62,Normal,[],CLEARED
+2020-06-14 06:30:00,4135001,1415.7,1448.45,-32.75,32.75,-2.26,Normal,[],CLEARED
+2020-06-14 06:30:00,4136001,2058.33,1974.09,84.25,84.25,4.27,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 06:45:00,4135001,2310.95,2393.13,-82.18,82.18,-3.43,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 06:45:00,4136001,3471.64,3447.29,24.35,24.35,0.71,Normal,[],CLEARED
+2020-06-14 07:00:00,4135001,4238.53,4308.32,-69.79,69.79,-1.62,Normal,[],CLEARED
+2020-06-14 07:00:00,4136001,5000.26,4802.72,197.54,197.54,4.11,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 07:15:00,4135001,6918.05,6062.01,856.04,856.04,14.12,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 07:15:00,4136001,6375.49,6130.31,245.18,245.18,4.0,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 07:30:00,4135001,6915.77,6365.37,550.4,550.4,8.65,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 07:30:00,4136001,7954.53,7305.49,649.05,649.05,8.88,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 07:45:00,4135001,9275.0,8610.64,664.36,664.36,7.72,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 07:45:00,4136001,9879.97,9316.3,563.68,563.68,6.05,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 08:00:00,4135001,9131.76,8983.17,148.58,148.58,1.65,Normal,[],CLEARED
+2020-06-14 08:00:00,4136001,9943.52,9440.24,503.28,503.28,5.33,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 08:15:00,4135001,7727.12,7532.79,194.33,194.33,2.58,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 08:15:00,4136001,7710.52,7554.19,156.33,156.33,2.07,Normal,[],CLEARED
+2020-06-14 08:30:00,4135001,10717.53,10903.27,-185.75,185.75,-1.7,Normal,[],CLEARED
+2020-06-14 08:30:00,4136001,11488.04,11711.33,-223.29,223.29,-1.91,Normal,[],CLEARED
+2020-06-14 08:45:00,4135001,11674.75,11703.98,-29.23,29.23,-0.25,Normal,[],CLEARED
+2020-06-14 08:45:00,4136001,9430.03,10800.6,-1370.57,1370.57,-12.69,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 09:00:00,4135001,12997.85,13817.76,-819.91,819.91,-5.93,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 09:00:00,4136001,14985.19,14744.22,240.97,240.97,1.63,Normal,[],CLEARED
+2020-06-14 09:15:00,4135001,17473.39,17111.08,362.31,362.31,2.12,Normal,[],CLEARED
+2020-06-14 09:15:00,4136001,10814.33,13159.43,-2345.11,2345.11,-17.82,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 09:30:00,4135001,17301.76,16777.5,524.26,524.26,3.12,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 09:30:00,4136001,11403.44,13131.08,-1727.64,1727.64,-13.16,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 09:45:00,4135001,17687.07,16740.75,946.32,946.32,5.65,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 09:45:00,4136001,10623.3,12248.83,-1625.53,1625.53,-13.27,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 10:00:00,4135001,18251.46,17264.96,986.51,986.51,5.71,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 10:00:00,4136001,12226.28,13179.53,-953.25,953.25,-7.23,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 10:15:00,4135001,16705.04,16683.5,21.55,21.55,0.13,Normal,[],CLEARED
+2020-06-14 10:15:00,4136001,14106.53,13033.28,1073.26,1073.26,8.23,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 10:30:00,4135001,22742.32,21651.41,1090.9,1090.9,5.04,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 10:30:00,4136001,14519.21,13646.15,873.06,873.06,6.4,Moderate Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",CLEARED
+2020-06-14 10:45:00,4135001,24517.43,21805.91,2711.52,2711.52,12.43,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-14 10:45:00,4136001,10018.79,11833.71,-1814.92,1814.92,-15.34,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 11:00:00,4135001,19578.05,19517.15,60.9,60.9,0.31,Normal,[],CLEARED
+2020-06-14 11:00:00,4136001,14896.86,11589.5,3307.36,3307.36,28.54,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 11:15:00,4135001,18606.61,20217.34,-1610.73,1610.73,-7.97,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 11:15:00,4136001,13378.19,12527.07,851.13,851.13,6.79,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 11:30:00,4135001,18894.58,20123.1,-1228.52,1228.52,-6.11,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 11:30:00,4136001,12859.93,11610.84,1249.09,1249.09,10.76,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 11:45:00,4135001,12405.73,14102.01,-1696.28,1696.28,-12.03,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 11:45:00,4136001,11474.69,11577.22,-102.54,102.54,-0.89,Normal,[],CLEARED
+2020-06-14 12:00:00,4135001,14550.99,15459.36,-908.37,908.37,-5.88,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 12:00:00,4136001,11908.56,11070.96,837.6,837.6,7.57,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 12:15:00,4135001,13922.98,15053.27,-1130.3,1130.3,-7.51,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 12:15:00,4136001,16330.53,13635.21,2695.32,2695.32,19.77,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-14 12:30:00,4135001,13606.79,14725.33,-1118.54,1118.54,-7.6,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 12:30:00,4136001,16859.98,15762.42,1097.56,1097.56,6.96,Significant Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-14 12:45:00,4135001,15401.66,16582.15,-1180.49,1180.49,-7.12,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 12:45:00,4136001,15244.79,12985.8,2258.99,2258.99,17.4,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-14 13:00:00,4135001,17124.9,17667.35,-542.46,542.46,-3.07,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 13:00:00,4136001,13791.48,13326.8,464.69,464.69,3.49,Normal,[],CLEARED
+2020-06-14 13:15:00,4135001,21258.8,21476.09,-217.29,217.29,-1.01,Normal,[],CLEARED
+2020-06-14 13:15:00,4136001,14602.33,13602.87,999.46,999.46,7.35,Significant Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-14 13:30:00,4135001,20177.83,20883.9,-706.07,706.07,-3.38,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 13:30:00,4136001,13068.25,13095.85,-27.61,27.61,-0.21,Normal,[],CLEARED
+2020-06-14 13:45:00,4135001,23086.44,24118.59,-1032.15,1032.15,-4.28,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 13:45:00,4136001,12894.17,13219.44,-325.27,325.27,-2.46,Normal,[],CLEARED
+2020-06-14 14:00:00,4135001,27895.04,27076.12,818.91,818.91,3.02,Moderate Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",CLEARED
+2020-06-14 14:00:00,4136001,13917.2,12796.69,1120.51,1120.51,8.76,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 14:15:00,4135001,23782.44,23106.1,676.33,676.33,2.93,Moderate Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",CLEARED
+2020-06-14 14:15:00,4136001,9066.39,12135.71,-3069.32,3069.32,-25.29,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 14:30:00,4135001,17019.64,16122.78,896.86,896.86,5.56,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 14:30:00,4136001,10770.57,10645.2,125.37,125.37,1.18,Normal,[],CLEARED
+2020-06-14 14:45:00,4135001,13873.93,13805.57,68.36,68.36,0.5,Normal,[],CLEARED
+2020-06-14 14:45:00,4136001,18109.95,11266.09,6843.86,6843.86,60.75,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 15:00:00,4135001,18501.02,17817.25,683.77,683.77,3.84,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 15:00:00,4136001,11234.69,10367.54,867.15,867.15,8.36,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 15:15:00,4135001,21373.73,20383.5,990.23,990.23,4.86,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 15:15:00,4136001,6197.97,5739.89,458.08,458.08,7.98,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 15:30:00,4135001,14291.46,14517.59,-226.13,226.13,-1.56,Normal,[],CLEARED
+2020-06-14 15:30:00,4136001,14250.81,12588.29,1662.51,1662.51,13.21,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 15:45:00,4135001,12680.12,12681.88,-1.76,1.76,-0.01,Normal,[],CLEARED
+2020-06-14 15:45:00,4136001,16914.1,12000.28,4913.81,4913.81,40.95,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 16:00:00,4135001,12534.01,12381.52,152.49,152.49,1.23,Normal,[],CLEARED
+2020-06-14 16:00:00,4136001,9888.69,10060.02,-171.33,171.33,-1.7,Normal,[],CLEARED
+2020-06-14 16:15:00,4135001,8932.23,9006.82,-74.59,74.59,-0.83,Normal,[],CLEARED
+2020-06-14 16:15:00,4136001,6593.96,6583.32,10.64,10.64,0.16,Normal,[],CLEARED
+2020-06-14 16:30:00,4135001,6194.95,6328.26,-133.3,133.3,-2.11,Normal,[],CLEARED
+2020-06-14 16:30:00,4136001,10440.94,9809.05,631.89,631.89,6.44,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 16:45:00,4135001,4736.27,4801.04,-64.76,64.76,-1.35,Normal,[],CLEARED
+2020-06-14 16:45:00,4136001,5770.54,5346.3,424.23,424.23,7.94,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 17:00:00,4135001,3799.59,3834.76,-35.17,35.17,-0.92,Normal,[],CLEARED
+2020-06-14 17:00:00,4136001,5762.76,5089.94,672.82,672.82,13.22,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 17:15:00,4135001,3585.77,3496.56,89.22,89.22,2.55,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 17:15:00,4136001,4738.78,4407.69,331.09,331.09,7.51,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 17:30:00,4135001,2181.1,2250.41,-69.31,69.31,-3.08,Normal,[],CLEARED
+2020-06-14 17:30:00,4136001,3605.69,3258.31,347.38,347.38,10.66,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 17:45:00,4135001,1229.77,1291.79,-62.01,62.01,-4.8,Normal,[],CLEARED
+2020-06-14 17:45:00,4136001,3268.21,3080.22,187.99,187.99,6.1,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-14 18:00:00,4135001,831.19,861.47,-30.29,30.29,-3.52,Normal,[],CLEARED
+2020-06-14 18:00:00,4136001,2180.06,2096.08,83.97,83.97,4.01,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-14 18:15:00,4135001,531.4,538.79,-7.39,7.39,-1.37,Normal,[],CLEARED
+2020-06-14 18:15:00,4136001,1271.13,1184.58,86.54,86.54,7.31,Moderate Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],CLEARED
+2020-06-14 18:30:00,4135001,134.12,171.76,-37.64,37.64,-21.92,Normal,[],CLEARED
+2020-06-14 18:30:00,4136001,477.54,482.81,-5.27,5.27,-1.09,Normal,[],CLEARED
+2020-06-14 18:45:00,4135001,0.0,13.27,-13.27,13.27,,Normal,[],CLEARED
+2020-06-14 18:45:00,4136001,0.0,14.75,-14.75,14.75,,Normal,[],CLEARED
+2020-06-14 19:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 19:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 19:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 19:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 19:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 19:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 19:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 19:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 20:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 21:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 22:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-14 23:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 00:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 01:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 02:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 03:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 04:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 05:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 05:00:00,4136001,0.0,12.25,-12.25,12.25,,Normal,[],CLEARED
+2020-06-15 05:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 05:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 05:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 05:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 05:45:00,4135001,0.0,10.77,-10.77,10.77,,Normal,[],CLEARED
+2020-06-15 05:45:00,4136001,0.0,12.25,-12.25,12.25,,Normal,[],CLEARED
+2020-06-15 06:00:00,4135001,202.7,204.76,-2.06,2.06,-1.0,Normal,[],CLEARED
+2020-06-15 06:00:00,4136001,234.32,277.06,-42.74,42.74,-15.43,Normal,[],CLEARED
+2020-06-15 06:15:00,4135001,973.83,926.56,47.28,47.28,5.1,Normal,[],CLEARED
+2020-06-15 06:15:00,4136001,694.69,640.65,54.04,54.04,8.44,Normal,[],CLEARED
+2020-06-15 06:30:00,4135001,2063.22,2003.44,59.78,59.78,2.98,Normal,[],CLEARED
+2020-06-15 06:30:00,4136001,1838.37,1828.59,9.77,9.77,0.53,Normal,[],CLEARED
+2020-06-15 06:45:00,4135001,3147.45,3100.28,47.17,47.17,1.52,Normal,[],CLEARED
+2020-06-15 06:45:00,4136001,2634.3,2596.86,37.44,37.44,1.44,Normal,[],CLEARED
+2020-06-15 07:00:00,4135001,4511.24,4638.17,-126.93,126.93,-2.74,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 07:00:00,4136001,4333.0,4396.14,-63.14,63.14,-1.44,Normal,[],CLEARED
+2020-06-15 07:15:00,4135001,4645.54,4699.39,-53.86,53.86,-1.15,Normal,[],CLEARED
+2020-06-15 07:15:00,4136001,5086.73,4939.96,146.77,146.77,2.97,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 07:30:00,4135001,4140.15,4291.86,-151.71,151.71,-3.53,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 07:30:00,4136001,4748.24,5081.12,-332.87,332.87,-6.55,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 07:45:00,4135001,7957.6,7976.56,-18.96,18.96,-0.24,Normal,[],CLEARED
+2020-06-15 07:45:00,4136001,9296.18,8979.21,316.98,316.98,3.53,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 08:00:00,4135001,13486.62,13303.17,183.46,183.46,1.38,Normal,[],CLEARED
+2020-06-15 08:00:00,4136001,10663.54,10074.89,588.65,588.65,5.84,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 08:15:00,4135001,16263.71,15811.7,452.01,452.01,2.86,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 08:15:00,4136001,12367.75,11830.92,536.83,536.83,4.54,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 08:30:00,4135001,16293.95,16388.05,-94.1,94.1,-0.57,Normal,[],CLEARED
+2020-06-15 08:30:00,4136001,13938.76,14820.52,-881.76,881.76,-5.95,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 08:45:00,4135001,15867.45,15892.96,-25.51,25.51,-0.16,Normal,[],CLEARED
+2020-06-15 08:45:00,4136001,14858.67,14811.12,47.55,47.55,0.32,Normal,[],CLEARED
+2020-06-15 09:00:00,4135001,17212.04,16598.14,613.89,613.89,3.7,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 09:00:00,4136001,10546.15,14512.67,-3966.52,3966.52,-27.33,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 09:15:00,4135001,19133.83,18805.93,327.9,327.9,1.74,Normal,[],CLEARED
+2020-06-15 09:15:00,4136001,10383.83,14959.1,-4575.26,4575.26,-30.59,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 09:30:00,4135001,19150.04,18818.25,331.79,331.79,1.76,Normal,[],CLEARED
+2020-06-15 09:30:00,4136001,6954.45,10865.65,-3911.2,3911.2,-36.0,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 09:45:00,4135001,18800.04,18811.85,-11.81,11.81,-0.06,Normal,[],CLEARED
+2020-06-15 09:45:00,4136001,10270.06,14387.5,-4117.44,4117.44,-28.62,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 10:00:00,4135001,18755.54,17953.78,801.75,801.75,4.47,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 10:00:00,4136001,13571.53,15735.08,-2163.54,2163.54,-13.75,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 10:15:00,4135001,25400.43,25476.84,-76.41,76.41,-0.3,Normal,[],CLEARED
+2020-06-15 10:15:00,4136001,12251.33,14851.93,-2600.61,2600.61,-17.51,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 10:30:00,4135001,20982.09,19781.7,1200.4,1200.4,6.07,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 10:30:00,4136001,10790.08,14037.83,-3247.75,3247.75,-23.14,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 10:45:00,4135001,23058.73,24818.78,-1760.04,1760.04,-7.09,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 10:45:00,4136001,7730.81,11495.62,-3764.81,3764.81,-32.75,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 11:00:00,4135001,22128.83,19905.65,2223.18,2223.18,11.17,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 11:00:00,4136001,7480.08,10984.01,-3503.93,3503.93,-31.9,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 11:15:00,4135001,16792.31,17198.79,-406.48,406.48,-2.36,Normal,[],CLEARED
+2020-06-15 11:15:00,4136001,11779.48,12378.3,-598.82,598.82,-4.84,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 11:30:00,4135001,17740.72,19008.52,-1267.8,1267.8,-6.67,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 11:30:00,4136001,8739.6,12881.76,-4142.16,4142.16,-32.16,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 11:45:00,4135001,19009.15,19209.8,-200.65,200.65,-1.04,Normal,[],CLEARED
+2020-06-15 11:45:00,4136001,7215.59,11078.43,-3862.85,3862.85,-34.87,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 12:00:00,4135001,20591.55,20642.67,-51.12,51.12,-0.25,Normal,[],CLEARED
+2020-06-15 12:00:00,4136001,9670.12,13071.21,-3401.09,3401.09,-26.02,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 12:15:00,4135001,13306.19,14083.45,-777.25,777.25,-5.52,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 12:15:00,4136001,12413.53,15181.19,-2767.66,2767.66,-18.23,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 12:30:00,4135001,12362.11,12196.77,165.34,165.34,1.36,Normal,[],CLEARED
+2020-06-15 12:30:00,4136001,9470.17,12996.59,-3526.43,3526.43,-27.13,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 12:45:00,4135001,14115.11,14452.38,-337.26,337.26,-2.33,Normal,[],CLEARED
+2020-06-15 12:45:00,4136001,7463.2,10483.03,-3019.84,3019.84,-28.81,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 13:00:00,4135001,21745.45,20272.75,1472.7,1472.7,7.26,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 13:00:00,4136001,8890.6,11298.67,-2408.07,2408.07,-21.31,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 13:15:00,4135001,12677.73,12812.57,-134.83,134.83,-1.05,Normal,[],CLEARED
+2020-06-15 13:15:00,4136001,4012.79,3905.45,107.35,107.35,2.75,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 13:30:00,4135001,7674.91,7432.98,241.93,241.93,3.25,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 13:30:00,4136001,8715.53,7672.11,1043.41,1043.41,13.6,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 13:45:00,4135001,7347.25,7364.65,-17.41,17.41,-0.24,Normal,[],CLEARED
+2020-06-15 13:45:00,4136001,13481.6,12319.96,1161.64,1161.64,9.43,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 14:00:00,4135001,8722.0,8427.81,294.19,294.19,3.49,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 14:00:00,4136001,14166.74,13785.63,381.11,381.11,2.76,Normal,[],CLEARED
+2020-06-15 14:15:00,4135001,13288.52,13832.45,-543.93,543.93,-3.93,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 14:15:00,4136001,6618.55,10335.14,-3716.59,3716.59,-35.96,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 14:30:00,4135001,21599.62,19110.59,2489.02,2489.02,13.02,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 14:30:00,4136001,11757.34,13227.14,-1469.8,1469.8,-11.11,Extreme Deviation,"['Low module-to-ambient temperature gradient (< 5°C) despite significant irradiance. Possible localized panel shading, sensor calibration discrepancy, or pyranometer misalignment.']",REQUIRES_INSPECTION
+2020-06-15 14:45:00,4135001,14926.64,14613.94,312.7,312.7,2.14,Normal,[],CLEARED
+2020-06-15 14:45:00,4136001,10445.36,11504.6,-1059.24,1059.24,-9.21,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 15:00:00,4135001,13901.54,13294.29,607.25,607.25,4.57,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 15:00:00,4136001,9103.74,9532.32,-428.59,428.59,-4.5,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 15:15:00,4135001,13594.68,14362.09,-767.41,767.41,-5.34,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 15:15:00,4136001,13836.37,13411.35,425.02,425.02,3.17,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 15:30:00,4135001,11505.29,11893.1,-387.81,387.81,-3.26,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 15:30:00,4136001,10878.88,11192.9,-314.02,314.02,-2.81,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 15:45:00,4135001,13544.41,14237.36,-692.96,692.96,-4.87,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 15:45:00,4136001,3995.88,4155.59,-159.7,159.7,-3.84,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 16:00:00,4135001,3885.12,4088.46,-203.33,203.33,-4.97,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 16:00:00,4136001,6567.83,6259.97,307.87,307.87,4.92,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 16:15:00,4135001,5326.92,5122.7,204.22,204.22,3.99,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 16:15:00,4136001,8289.37,8328.77,-39.4,39.4,-0.47,Normal,[],CLEARED
+2020-06-15 16:30:00,4135001,7544.99,7568.74,-23.75,23.75,-0.31,Normal,[],CLEARED
+2020-06-15 16:30:00,4136001,8004.15,7713.12,291.03,291.03,3.77,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 16:45:00,4135001,8776.37,8215.69,560.68,560.68,6.82,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 16:45:00,4136001,8642.18,8195.69,446.5,446.5,5.45,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 17:00:00,4135001,6028.1,5935.72,92.38,92.38,1.56,Normal,[],CLEARED
+2020-06-15 17:00:00,4136001,5235.41,5018.17,217.24,217.24,4.33,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 17:15:00,4135001,4899.68,4750.8,148.88,148.88,3.13,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 17:15:00,4136001,1980.18,1910.41,69.77,69.77,3.65,Normal,[],CLEARED
+2020-06-15 17:30:00,4135001,3085.74,3184.28,-98.54,98.54,-3.09,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 17:30:00,4136001,3405.75,3127.29,278.46,278.46,8.9,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-15 17:45:00,4135001,2640.71,2571.27,69.45,69.45,2.7,Normal,[],CLEARED
+2020-06-15 17:45:00,4136001,2693.16,2573.36,119.81,119.81,4.66,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-15 18:00:00,4135001,1137.17,1195.56,-58.38,58.38,-4.88,Normal,[],CLEARED
+2020-06-15 18:00:00,4136001,1995.74,1949.09,46.65,46.65,2.39,Normal,[],CLEARED
+2020-06-15 18:15:00,4135001,501.55,536.22,-34.67,34.67,-6.47,Normal,[],CLEARED
+2020-06-15 18:15:00,4136001,1329.25,1304.89,24.35,24.35,1.87,Normal,[],CLEARED
+2020-06-15 18:30:00,4135001,37.29,47.75,-10.45,10.45,,Normal,[],CLEARED
+2020-06-15 18:30:00,4136001,707.55,654.05,53.49,53.49,8.18,Normal,[],CLEARED
+2020-06-15 18:45:00,4135001,0.0,11.01,-11.01,11.01,,Normal,[],CLEARED
+2020-06-15 18:45:00,4136001,143.63,169.15,-25.52,25.52,-15.09,Normal,[],CLEARED
+2020-06-15 19:00:00,4135001,0.0,11.0,-11.0,11.0,,Normal,[],CLEARED
+2020-06-15 19:00:00,4136001,0.0,12.48,-12.48,12.48,,Normal,[],CLEARED
+2020-06-15 19:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 19:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 19:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 19:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 19:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 19:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 20:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 21:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 22:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-15 23:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 00:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 01:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 02:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 03:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 04:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 05:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 05:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 05:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 05:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 05:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 05:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 05:45:00,4135001,0.0,10.79,-10.79,10.79,,Normal,[],CLEARED
+2020-06-16 05:45:00,4136001,0.0,12.27,-12.27,12.27,,Normal,[],CLEARED
+2020-06-16 06:00:00,4135001,8.16,34.08,-25.93,25.93,,Normal,[],CLEARED
+2020-06-16 06:00:00,4136001,159.75,175.36,-15.61,15.61,-8.9,Normal,[],CLEARED
+2020-06-16 06:15:00,4135001,401.51,307.13,94.38,94.38,30.73,Moderate Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],CLEARED
+2020-06-16 06:15:00,4136001,771.75,755.07,16.67,16.67,2.21,Normal,[],CLEARED
+2020-06-16 06:30:00,4135001,1471.53,1451.26,20.27,20.27,1.4,Normal,[],CLEARED
+2020-06-16 06:30:00,4136001,1530.57,1500.55,30.02,30.02,2.0,Normal,[],CLEARED
+2020-06-16 06:45:00,4135001,2149.33,2232.71,-83.38,83.38,-3.73,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 06:45:00,4136001,2508.73,2394.42,114.31,114.31,4.77,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 07:00:00,4135001,3092.08,3102.44,-10.37,10.37,-0.33,Normal,[],CLEARED
+2020-06-16 07:00:00,4136001,3484.89,3548.91,-64.02,64.02,-1.8,Normal,[],CLEARED
+2020-06-16 07:15:00,4135001,5069.19,4773.2,295.98,295.98,6.2,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 07:15:00,4136001,4249.63,4194.47,55.16,55.16,1.32,Normal,[],CLEARED
+2020-06-16 07:30:00,4135001,6105.17,6075.98,29.19,29.19,0.48,Normal,[],CLEARED
+2020-06-16 07:30:00,4136001,5409.88,5196.15,213.73,213.73,4.11,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 07:45:00,4135001,7677.15,7984.87,-307.72,307.72,-3.85,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 07:45:00,4136001,6309.83,6287.96,21.87,21.87,0.35,Normal,[],CLEARED
+2020-06-16 08:00:00,4135001,10555.03,10349.62,205.42,205.42,1.98,Normal,[],CLEARED
+2020-06-16 08:00:00,4136001,7809.51,7572.43,237.09,237.09,3.13,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 08:15:00,4135001,9954.93,10212.98,-258.06,258.06,-2.53,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 08:15:00,4136001,9584.6,9455.49,129.11,129.11,1.37,Normal,[],CLEARED
+2020-06-16 08:30:00,4135001,12533.05,12273.86,259.19,259.19,2.11,Normal,[],CLEARED
+2020-06-16 08:30:00,4136001,10676.39,10744.14,-67.75,67.75,-0.63,Normal,[],CLEARED
+2020-06-16 08:45:00,4135001,12572.68,12926.93,-354.26,354.26,-2.74,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 08:45:00,4136001,10891.86,10991.37,-99.5,99.5,-0.91,Normal,[],CLEARED
+2020-06-16 09:00:00,4135001,12538.45,12956.35,-417.9,417.9,-3.23,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 09:00:00,4136001,11605.94,11561.11,44.83,44.83,0.39,Normal,[],CLEARED
+2020-06-16 09:15:00,4135001,14086.67,14486.79,-400.11,400.11,-2.76,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 09:15:00,4136001,9224.4,8590.06,634.34,634.34,7.38,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 09:30:00,4135001,16210.64,16790.03,-579.39,579.39,-3.45,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 09:30:00,4136001,12200.95,11916.35,284.6,284.6,2.39,Normal,[],CLEARED
+2020-06-16 09:45:00,4135001,19016.11,18446.39,569.72,569.72,3.09,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 09:45:00,4136001,13649.38,13335.98,313.4,313.4,2.35,Normal,[],CLEARED
+2020-06-16 10:00:00,4135001,24082.96,23976.7,106.26,106.26,0.44,Normal,[],CLEARED
+2020-06-16 10:00:00,4136001,14343.83,13545.93,797.89,797.89,5.89,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 10:15:00,4135001,22378.34,20236.16,2142.18,2142.18,10.59,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 10:15:00,4136001,16457.87,14151.34,2306.53,2306.53,16.3,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 10:30:00,4135001,18201.62,16967.27,1234.35,1234.35,7.27,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 10:30:00,4136001,14603.33,13023.1,1580.23,1580.23,12.13,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 10:45:00,4135001,20210.87,19823.23,387.64,387.64,1.96,Normal,[],CLEARED
+2020-06-16 10:45:00,4136001,15418.26,12708.38,2709.89,2709.89,21.32,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 11:00:00,4135001,24978.13,25453.5,-475.38,475.38,-1.87,Normal,[],CLEARED
+2020-06-16 11:00:00,4136001,14184.73,13004.28,1180.46,1180.46,9.08,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 11:15:00,4135001,18069.26,18102.45,-33.19,33.19,-0.18,Normal,[],CLEARED
+2020-06-16 11:15:00,4136001,15984.87,13015.23,2969.64,2969.64,22.82,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 11:30:00,4135001,12780.4,12870.33,-89.92,89.92,-0.7,Normal,[],CLEARED
+2020-06-16 11:30:00,4136001,22419.53,11708.15,10711.38,10711.38,91.49,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 11:45:00,4135001,16210.63,16670.14,-459.51,459.51,-2.76,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 11:45:00,4136001,14687.02,10672.77,4014.25,4014.25,37.61,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 12:00:00,4135001,7269.28,6951.23,318.05,318.05,4.58,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 12:00:00,4136001,14734.16,11897.37,2836.79,2836.79,23.84,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 12:15:00,4135001,13299.11,14070.82,-771.7,771.7,-5.48,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 12:15:00,4136001,11251.28,10621.24,630.03,630.03,5.93,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 12:30:00,4135001,14176.67,15462.03,-1285.36,1285.36,-8.31,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 12:30:00,4136001,16377.24,12116.96,4260.28,4260.28,35.16,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 12:45:00,4135001,15522.86,15744.61,-221.74,221.74,-1.41,Normal,[],CLEARED
+2020-06-16 12:45:00,4136001,17862.93,11091.5,6771.43,6771.43,61.05,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 13:00:00,4135001,10305.55,10379.69,-74.14,74.14,-0.71,Normal,[],CLEARED
+2020-06-16 13:00:00,4136001,18792.22,10862.85,7929.37,7929.37,73.0,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 13:15:00,4135001,15730.27,15724.12,6.16,6.16,0.04,Normal,[],CLEARED
+2020-06-16 13:15:00,4136001,18387.29,10709.64,7677.65,7677.65,71.69,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 13:30:00,4135001,17424.86,16666.99,757.87,757.87,4.55,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 13:30:00,4136001,11094.63,9978.01,1116.62,1116.62,11.19,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 13:45:00,4135001,12894.9,12794.13,100.77,100.77,0.79,Normal,[],CLEARED
+2020-06-16 13:45:00,4136001,13727.43,11982.57,1744.86,1744.86,14.56,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 14:00:00,4135001,14158.8,13565.26,593.54,593.54,4.38,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 14:00:00,4136001,14704.02,11903.39,2800.63,2800.63,23.53,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 14:15:00,4135001,9507.83,9895.05,-387.22,387.22,-3.91,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 14:15:00,4136001,4860.44,12039.56,-7179.12,7179.12,-59.63,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 14:30:00,4135001,21145.86,20065.29,1080.57,1080.57,5.39,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 14:30:00,4136001,0.0,10693.72,-10693.72,10693.72,-100.0,Extreme Deviation,"['Severe generation deficit under strong solar irradiance (> 0.35 kW/m²). Indicates probable inverter trip, AC breaker trip, or substation curtailment.']",REQUIRES_INSPECTION
+2020-06-16 14:45:00,4135001,15640.55,15823.58,-183.03,183.03,-1.16,Normal,[],CLEARED
+2020-06-16 14:45:00,4136001,11662.96,12309.56,-646.6,646.6,-5.25,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 15:00:00,4135001,8844.41,9294.23,-449.82,449.82,-4.84,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 15:00:00,4136001,11462.72,11088.68,374.04,374.04,3.37,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 15:15:00,4135001,10090.66,10385.36,-294.7,294.7,-2.84,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 15:15:00,4136001,11978.9,11099.35,879.55,879.55,7.92,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 15:30:00,4135001,13944.71,13557.83,386.88,386.88,2.85,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 15:30:00,4136001,13877.98,11927.87,1950.11,1950.11,16.35,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 15:45:00,4135001,10880.68,11430.08,-549.41,549.41,-4.81,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 15:45:00,4136001,10490.87,10440.45,50.42,50.42,0.48,Normal,[],CLEARED
+2020-06-16 16:00:00,4135001,10713.47,10941.04,-227.56,227.56,-2.08,Normal,[],CLEARED
+2020-06-16 16:00:00,4136001,5772.63,5520.25,252.38,252.38,4.57,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 16:15:00,4135001,7555.5,7623.37,-67.86,67.86,-0.89,Normal,[],CLEARED
+2020-06-16 16:15:00,4136001,7955.74,7701.23,254.51,254.51,3.3,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 16:30:00,4135001,5707.15,5986.66,-279.5,279.5,-4.67,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 16:30:00,4136001,4515.7,4479.72,35.98,35.98,0.8,Normal,[],CLEARED
+2020-06-16 16:45:00,4135001,4762.35,4964.97,-202.62,202.62,-4.08,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 16:45:00,4136001,3844.56,3817.25,27.31,27.31,0.72,Normal,[],CLEARED
+2020-06-16 17:00:00,4135001,4135.51,4385.61,-250.11,250.11,-5.7,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-16 17:00:00,4136001,2709.03,2679.45,29.58,29.58,1.1,Normal,[],CLEARED
+2020-06-16 17:15:00,4135001,3740.98,3767.18,-26.19,26.19,-0.7,Normal,[],CLEARED
+2020-06-16 17:15:00,4136001,1115.42,1032.62,82.8,82.8,8.02,Moderate Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],CLEARED
+2020-06-16 17:30:00,4135001,3108.47,3132.25,-23.78,23.78,-0.76,Normal,[],CLEARED
+2020-06-16 17:30:00,4136001,2181.56,2068.43,113.13,113.13,5.47,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 17:45:00,4135001,2220.26,2306.13,-85.87,85.87,-3.72,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-16 17:45:00,4136001,1751.25,1682.73,68.52,68.52,4.07,Normal,[],CLEARED
+2020-06-16 18:00:00,4135001,1480.96,1409.76,71.2,71.2,5.05,Normal,[],CLEARED
+2020-06-16 18:00:00,4136001,807.59,822.86,-15.26,15.26,-1.85,Normal,[],CLEARED
+2020-06-16 18:15:00,4135001,731.94,685.27,46.67,46.67,6.81,Normal,[],CLEARED
+2020-06-16 18:15:00,4136001,494.65,484.84,9.81,9.81,2.02,Normal,[],CLEARED
+2020-06-16 18:30:00,4135001,159.19,167.75,-8.55,8.55,-5.1,Normal,[],CLEARED
+2020-06-16 18:30:00,4136001,249.73,227.27,22.46,22.46,9.88,Normal,[],CLEARED
+2020-06-16 18:45:00,4135001,0.0,11.02,-11.02,11.02,,Normal,[],CLEARED
+2020-06-16 18:45:00,4136001,0.0,12.51,-12.51,12.51,,Normal,[],CLEARED
+2020-06-16 19:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 19:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 19:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 19:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 19:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 19:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 19:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 19:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 20:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 21:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 22:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-16 23:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 00:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 01:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 02:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 03:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 04:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 05:45:00,4136001,0.0,11.45,-11.45,11.45,,Normal,[],CLEARED
+2020-06-17 06:00:00,4135001,6.0,14.53,-8.54,8.54,,Normal,[],CLEARED
+2020-06-17 06:00:00,4136001,32.66,39.06,-6.41,6.41,,Normal,[],CLEARED
+2020-06-17 06:15:00,4136001,525.83,491.34,34.49,34.49,7.02,Normal,[],CLEARED
+2020-06-17 06:30:00,4136001,1160.25,1100.21,60.04,60.04,5.46,Normal,[],CLEARED
+2020-06-17 06:45:00,4135001,877.25,1504.06,-626.81,626.81,-41.67,Extreme Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],REQUIRES_INSPECTION
+2020-06-17 06:45:00,4136001,1252.39,1206.62,45.76,45.76,3.79,Normal,[],CLEARED
+2020-06-17 07:00:00,4135001,2946.03,2790.93,155.1,155.1,5.56,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 07:00:00,4136001,1360.81,1308.27,52.54,52.54,4.02,Normal,[],CLEARED
+2020-06-17 07:15:00,4135001,4462.53,4385.96,76.57,76.57,1.75,Normal,[],CLEARED
+2020-06-17 07:15:00,4136001,1616.57,1523.26,93.31,93.31,6.13,Moderate Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],CLEARED
+2020-06-17 07:30:00,4135001,7062.44,6501.55,560.9,560.9,8.63,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 07:30:00,4136001,2140.84,2056.7,84.14,84.14,4.09,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 07:45:00,4135001,8217.69,7872.7,344.99,344.99,4.38,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 07:45:00,4136001,2777.78,2578.24,199.54,199.54,7.74,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 08:00:00,4135001,7405.61,7221.6,184.0,184.0,2.55,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 08:00:00,4136001,3949.08,3643.33,305.75,305.75,8.39,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 08:15:00,4135001,8184.14,8181.12,3.02,3.02,0.04,Normal,[],CLEARED
+2020-06-17 08:15:00,4136001,3927.82,3892.6,35.21,35.21,0.9,Normal,[],CLEARED
+2020-06-17 08:30:00,4135001,8800.63,8255.87,544.76,544.76,6.6,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 08:30:00,4136001,4553.83,4243.18,310.65,310.65,7.32,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 08:45:00,4135001,8452.94,8283.03,169.91,169.91,2.05,Normal,[],CLEARED
+2020-06-17 08:45:00,4136001,5865.46,5124.53,740.93,740.93,14.46,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 09:00:00,4135001,10911.06,11285.41,-374.35,374.35,-3.32,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 09:00:00,4136001,4064.4,3971.61,92.8,92.8,2.34,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 09:15:00,4135001,11630.1,11533.95,96.15,96.15,0.83,Normal,[],CLEARED
+2020-06-17 09:15:00,4136001,4204.13,4047.43,156.7,156.7,3.87,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 09:30:00,4135001,14852.69,14435.3,417.39,417.39,2.89,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 09:30:00,4136001,7643.23,7275.92,367.31,367.31,5.05,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 09:45:00,4135001,12306.76,11607.22,699.54,699.54,6.03,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 09:45:00,4136001,12512.97,11573.03,939.94,939.94,8.12,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 10:00:00,4135001,13464.23,13807.41,-343.18,343.18,-2.49,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 10:00:00,4136001,12028.09,11270.45,757.64,757.64,6.72,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 10:15:00,4135001,14483.89,14510.11,-26.23,26.23,-0.18,Normal,[],CLEARED
+2020-06-17 10:15:00,4136001,10064.07,9419.3,644.77,644.77,6.85,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 10:30:00,4135001,15638.64,15243.54,395.11,395.11,2.59,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 10:30:00,4136001,9774.58,9167.64,606.93,606.93,6.62,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 10:45:00,4135001,14239.32,14728.76,-489.44,489.44,-3.32,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 10:45:00,4136001,10732.98,9852.97,880.01,880.01,8.93,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 11:00:00,4135001,14510.47,14756.14,-245.67,245.67,-1.66,Normal,[],CLEARED
+2020-06-17 11:00:00,4136001,10969.28,9929.64,1039.64,1039.64,10.47,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 11:15:00,4135001,17199.11,17445.77,-246.66,246.66,-1.41,Normal,[],CLEARED
+2020-06-17 11:15:00,4136001,7334.86,6766.31,568.55,568.55,8.4,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 11:30:00,4135001,16548.7,16898.35,-349.65,349.65,-2.07,Normal,[],CLEARED
+2020-06-17 11:30:00,4136001,13466.61,12166.03,1300.58,1300.58,10.69,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 11:45:00,4135001,24773.91,23881.85,892.06,892.06,3.74,Moderate Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",CLEARED
+2020-06-17 11:45:00,4136001,16244.74,12894.91,3349.83,3349.83,25.98,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 12:00:00,4135001,24771.06,23707.5,1063.56,1063.56,4.49,Significant Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-17 12:00:00,4136001,11283.48,10573.68,709.8,709.8,6.71,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 12:15:00,4135001,29048.96,25362.71,3686.25,3686.25,14.53,Extreme Deviation,"['Actual power generation significantly exceeded model baseline during peak sun. Favorable environmental factors: clean panel surfaces, cool wind gusts, or pyranometer calibration offset.']",REQUIRES_INSPECTION
+2020-06-17 12:15:00,4136001,17122.92,12664.95,4457.97,4457.97,35.2,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 12:30:00,4135001,20619.03,19618.99,1000.03,1000.03,5.1,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 12:30:00,4136001,15559.25,12668.0,2891.24,2891.24,22.82,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 12:45:00,4135001,21655.72,19404.49,2251.23,2251.23,11.6,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 12:45:00,4136001,16514.21,12293.66,4220.56,4220.56,34.33,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 13:00:00,4135001,15160.01,15122.83,37.18,37.18,0.25,Normal,[],CLEARED
+2020-06-17 13:00:00,4136001,16325.52,11925.5,4400.02,4400.02,36.9,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 13:15:00,4135001,19014.07,17151.74,1862.33,1862.33,10.86,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 13:15:00,4136001,14838.72,12781.72,2057.01,2057.01,16.09,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 13:30:00,4135001,21044.15,18556.72,2487.43,2487.43,13.4,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 13:30:00,4136001,14374.72,12757.99,1616.74,1616.74,12.67,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 13:45:00,4135001,17746.0,16766.39,979.61,979.61,5.84,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 13:45:00,4136001,1743.61,11475.44,-9731.83,9731.83,-84.81,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 14:00:00,4135001,13531.35,13749.33,-217.98,217.98,-1.59,Normal,[],CLEARED
+2020-06-17 14:00:00,4136001,7318.78,12059.56,-4740.78,4740.78,-39.31,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 14:15:00,4135001,13048.06,12782.38,265.68,265.68,2.08,Normal,[],CLEARED
+2020-06-17 14:15:00,4136001,12980.06,11978.81,1001.24,1001.24,8.36,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 14:30:00,4135001,17947.76,16651.52,1296.24,1296.24,7.78,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 14:30:00,4136001,10672.27,9914.63,757.64,757.64,7.64,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 14:45:00,4135001,16851.67,15851.6,1000.07,1000.07,6.31,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 14:45:00,4136001,11245.05,10697.47,547.58,547.58,5.12,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 15:00:00,4135001,10254.97,10110.89,144.08,144.08,1.43,Normal,[],CLEARED
+2020-06-17 15:00:00,4136001,12178.41,11742.56,435.85,435.85,3.71,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 15:15:00,4135001,3341.71,3647.84,-306.13,306.13,-8.39,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 15:15:00,4136001,12610.41,11850.83,759.58,759.58,6.41,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 15:30:00,4135001,1928.28,2091.93,-163.65,163.65,-7.82,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 15:30:00,4136001,7948.38,7821.41,126.97,126.97,1.62,Normal,[],CLEARED
+2020-06-17 15:45:00,4135001,3026.04,2893.9,132.14,132.14,4.57,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 15:45:00,4136001,7113.77,6900.11,213.67,213.67,3.1,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 16:00:00,4135001,6922.5,6178.79,743.72,743.72,12.04,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 16:00:00,4136001,6461.85,6494.23,-32.38,32.38,-0.5,Normal,[],CLEARED
+2020-06-17 16:15:00,4135001,7880.04,7495.75,384.3,384.3,5.13,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 16:15:00,4136001,6393.03,6107.04,285.99,285.99,4.68,Significant Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 16:30:00,4135001,3954.91,3857.62,97.29,97.29,2.52,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 16:30:00,4136001,6046.77,5667.23,379.53,379.53,6.7,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 16:45:00,4135001,2421.44,2460.84,-39.4,39.4,-1.6,Normal,[],CLEARED
+2020-06-17 16:45:00,4136001,4019.44,3869.12,150.32,150.32,3.89,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 17:00:00,4135001,2819.38,2590.99,228.39,228.39,8.81,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 17:00:00,4136001,1148.67,1018.35,130.33,130.33,12.8,Significant Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],REQUIRES_INSPECTION
+2020-06-17 17:15:00,4135001,3356.54,3124.44,232.11,232.11,7.43,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 17:15:00,4136001,2886.31,2486.95,399.36,399.36,16.06,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 17:30:00,4135001,2869.84,2767.75,102.09,102.09,3.69,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 17:30:00,4136001,2929.15,2587.55,341.6,341.6,13.2,Extreme Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],REQUIRES_INSPECTION
+2020-06-17 17:45:00,4135001,2021.63,2010.84,10.78,10.78,0.54,Normal,[],CLEARED
+2020-06-17 17:45:00,4136001,2072.66,1991.89,80.77,80.77,4.06,Moderate Deviation,['Operational variance exceeding dynamic statistical tolerance band. Consistent with rapid cloud cover transients or intermittent grid curtailment.'],CLEARED
+2020-06-17 18:00:00,4135001,1288.59,1277.99,10.59,10.59,0.83,Normal,[],CLEARED
+2020-06-17 18:00:00,4136001,1284.55,1264.99,19.55,19.55,1.55,Normal,[],CLEARED
+2020-06-17 18:15:00,4135001,719.88,645.66,74.21,74.21,11.49,Normal,[],CLEARED
+2020-06-17 18:15:00,4136001,677.99,625.15,52.85,52.85,8.45,Normal,[],CLEARED
+2020-06-17 18:30:00,4135001,165.83,168.34,-2.51,2.51,-1.49,Normal,[],CLEARED
+2020-06-17 18:30:00,4136001,410.0,304.23,105.77,105.77,34.77,Moderate Deviation,['Non-zero power generation recorded under near-zero measured irradiance. Likely pyranometer shading or sensor soiling.'],CLEARED
+2020-06-17 18:45:00,4135001,0.0,10.6,-10.6,10.6,,Normal,[],CLEARED
+2020-06-17 18:45:00,4136001,73.07,12.5,60.56,60.56,,Normal,[],CLEARED
+2020-06-17 19:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 19:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 19:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 19:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 19:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 19:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 19:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 19:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 20:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 21:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 22:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:00:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:00:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:15:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:15:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:30:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:30:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:45:00,4135001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED
+2020-06-17 23:45:00,4136001,0.0,0.0,0.0,0.0,,Normal,[],CLEARED

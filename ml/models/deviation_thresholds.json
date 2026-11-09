@@ -1,0 +1,8 @@
+{
+  "median_residual": 36.07,
+  "mad": 259.7,
+  "std_residual": 709.15,
+  "moderate_threshold": 389.55,
+  "significant_threshold": 649.24,
+  "extreme_threshold": 1038.79
+}

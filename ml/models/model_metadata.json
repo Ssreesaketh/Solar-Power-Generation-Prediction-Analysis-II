@@ -1,0 +1,259 @@
+{
+  "model_name": "Solar_Power_Predictor_Voting_Ensemble",
+  "model_version": "v1.1.0",
+  "algorithm": "Voting Ensemble",
+  "target_variable": "AC_POWER",
+  "target_unit": "kW (Aggregated Plant Generation)",
+  "features": [
+    "IRRADIATION",
+    "AMBIENT_TEMPERATURE",
+    "MODULE_TEMPERATURE",
+    "temp_diff",
+    "irr_mod_interaction",
+    "irr_amb_interaction",
+    "irradiation_squared",
+    "sin_hour",
+    "cos_hour",
+    "hour",
+    "day_of_week",
+    "day_of_year",
+    "is_plant_2",
+    "effective_irradiance",
+    "solar_elevation_proxy"
+  ],
+  "feature_count": 15,
+  "feature_metadata": [
+    {
+      "name": "IRRADIATION",
+      "type": "float",
+      "unit": "kW/m\u00b2",
+      "description": "Global solar irradiance incident on solar panels.",
+      "operational_justification": "Primary physical driver of photovoltaic electron flow.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "AMBIENT_TEMPERATURE",
+      "type": "float",
+      "unit": "\u00b0C",
+      "description": "Surrounding ambient air temperature measured by meteorological station.",
+      "operational_justification": "Influences heat dissipation and ambient operating equilibrium.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "MODULE_TEMPERATURE",
+      "type": "float",
+      "unit": "\u00b0C",
+      "description": "Surface temperature of solar photovoltaic panel modules.",
+      "operational_justification": "PV panel efficiency decreases linearly as cell temperature rises above 25\u00b0C.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "temp_diff",
+      "type": "float",
+      "unit": "\u00b0C",
+      "description": "MODULE_TEMPERATURE minus AMBIENT_TEMPERATURE.",
+      "operational_justification": "Direct measure of solar absorption heating above ambient.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "irr_mod_interaction",
+      "type": "float",
+      "unit": "kW\u00b7\u00b0C/m\u00b2",
+      "description": "Interaction product of IRRADIATION and MODULE_TEMPERATURE.",
+      "operational_justification": "Captures joint non-linear effect of peak sun exposure and thermal degradation.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "irr_amb_interaction",
+      "type": "float",
+      "unit": "kW\u00b7\u00b0C/m\u00b2",
+      "description": "Interaction product of IRRADIATION and AMBIENT_TEMPERATURE.",
+      "operational_justification": "Captures seasonal/meteorological climate interaction.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "irradiation_squared",
+      "type": "float",
+      "unit": "(kW/m\u00b2)\u00b2",
+      "description": "Quadratic transformation of IRRADIATION.",
+      "operational_justification": "Models non-linear saturation curve of inverter clipping at high irradiance.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "sin_hour",
+      "type": "float",
+      "unit": "dimensionless [-1, 1]",
+      "description": "Sine cyclical encoding of time of day: sin(2 * pi * hour / 24).",
+      "operational_justification": "Provides smooth continuous representation of the 24-hour diurnal cycle.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "cos_hour",
+      "type": "float",
+      "unit": "dimensionless [-1, 1]",
+      "description": "Cosine cyclical encoding of time of day: cos(2 * pi * hour / 24).",
+      "operational_justification": "Provides perpendicular cyclical component to sin_hour.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "hour",
+      "type": "float",
+      "unit": "hours [0, 24)",
+      "description": "Continuous decimal hour of day.",
+      "operational_justification": "Allows tree splits on morning vs afternoon solar geometry.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "day_of_week",
+      "type": "int",
+      "unit": "index [0, 6]",
+      "description": "Day of week (Monday=0 to Sunday=6).",
+      "operational_justification": "Encodes potential weekly dispatch or maintenance rhythms.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "day_of_year",
+      "type": "int",
+      "unit": "day [1, 366]",
+      "description": "Calendar day of year.",
+      "operational_justification": "Encodes seasonal solar declination and azimuth shifts.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "is_plant_2",
+      "type": "int",
+      "unit": "binary [0, 1]",
+      "description": "Binary indicator for Plant 2 (4136001).",
+      "operational_justification": "Encodes baseline capacity and hardware differences between Plant 1 and Plant 2.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "effective_irradiance",
+      "type": "float",
+      "unit": "kW/m\u00b2",
+      "description": "Irradiance adjusted by PV thermal loss coefficient (-0.4%/\u00b0C above 25\u00b0C).",
+      "operational_justification": "Direct physical representation of actual usable solar flux after cell heating.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    },
+    {
+      "name": "solar_elevation_proxy",
+      "type": "float",
+      "unit": "dimensionless [0, 1]",
+      "description": "Idealized solar elevation angle proxy based on daytime sine curve.",
+      "operational_justification": "Provides clean bell-shaped daylight geometric prior peaking at noon.",
+      "available_at_prediction_time": true,
+      "leakage_risk": false
+    }
+  ],
+  "training_timestamp": "2026-11-07T04:43:21.216920+00:00",
+  "training_records": 4460,
+  "validation_records": 978,
+  "test_records": 978,
+  "train_period": "2020-05-15 00:00:00 to 2020-06-07 19:00:00",
+  "validation_period": "2020-06-07 19:15:00 to 2020-06-12 21:15:00",
+  "test_period": "2020-06-12 21:30:00 to 2020-06-17 23:45:00",
+  "tuning_info": {
+    "best_cv_neg_rmse": -1650.0,
+    "best_params": {
+      "ensemble": "HistGradientBoosting + LightGBM + GradientBoosting"
+    },
+    "val_metrics": {
+      "mae": 436.0825,
+      "mse": 1504155.2928,
+      "rmse": 1226.4401,
+      "r2": 0.9703,
+      "nrmse_range": 0.0431,
+      "nrmse_mean": 0.2278,
+      "samples": 978
+    }
+  },
+  "test_metrics": {
+    "overall": {
+      "mae": 486.096,
+      "mse": 1798559.3435,
+      "rmse": 1341.1038,
+      "r2": 0.964,
+      "nrmse_range": 0.0462,
+      "nrmse_mean": 0.2518,
+      "samples": 978
+    },
+    "daylight": {
+      "mae": 886.9438,
+      "mse": 3281699.6977,
+      "rmse": 1811.5462,
+      "r2": 0.9324,
+      "nrmse_range": 0.0624,
+      "nrmse_mean": 0.1864,
+      "samples": 536
+    },
+    "nighttime": {
+      "mae": 0.0,
+      "mse": 0.0,
+      "rmse": 0.0,
+      "r2": 1.0,
+      "nrmse_range": 0.0,
+      "nrmse_mean": 0.0,
+      "samples": 442
+    },
+    "plant_1": {
+      "mae": 277.3409,
+      "mse": 419708.5148,
+      "rmse": 647.8491,
+      "r2": 0.9937,
+      "nrmse_range": 0.0223,
+      "nrmse_mean": 0.1046,
+      "samples": 488
+    },
+    "plant_2": {
+      "mae": 693.999,
+      "mse": 3171782.2097,
+      "rmse": 1780.9498,
+      "r2": 0.9,
+      "nrmse_range": 0.0794,
+      "nrmse_mean": 0.3992,
+      "samples": 490
+    },
+    "tier_low_power": {
+      "mae": 106.0091,
+      "mse": 801483.6671,
+      "rmse": 895.2562,
+      "r2": 0.5543,
+      "nrmse_range": 0.1551,
+      "nrmse_mean": 1.4688,
+      "samples": 626
+    },
+    "tier_med_power": {
+      "mae": 1070.0276,
+      "mse": 3185022.9302,
+      "rmse": 1784.6633,
+      "r2": 0.7622,
+      "nrmse_range": 0.1244,
+      "nrmse_mean": 0.1443,
+      "samples": 310
+    },
+    "tier_high_power": {
+      "mae": 1841.2291,
+      "mse": 6426313.1904,
+      "rmse": 2535.0174,
+      "r2": -0.2606,
+      "nrmse_range": 0.2997,
+      "nrmse_mean": 0.1072,
+      "samples": 42
+    }
+  },
+  "is_active": true
+}

@@ -1,0 +1,74 @@
+{
+  "overall": {
+    "mae": 486.0164,
+    "mse": 1798558.3035,
+    "rmse": 1341.1034,
+    "r2": 0.964,
+    "nrmse_range": 0.0462,
+    "nrmse_mean": 0.2518,
+    "samples": 978
+  },
+  "daylight": {
+    "mae": 886.7986,
+    "mse": 3281697.8001,
+    "rmse": 1811.5457,
+    "r2": 0.9324,
+    "nrmse_range": 0.0624,
+    "nrmse_mean": 0.1864,
+    "samples": 536
+  },
+  "nighttime": {
+    "mae": 0.0,
+    "mse": 0.0,
+    "rmse": 0.0,
+    "r2": 1.0,
+    "nrmse_range": 0.0,
+    "nrmse_mean": 0.0,
+    "samples": 442
+  },
+  "plant_1": {
+    "mae": 277.3409,
+    "mse": 419708.5148,
+    "rmse": 647.8491,
+    "r2": 0.9937,
+    "nrmse_range": 0.0223,
+    "nrmse_mean": 0.1046,
+    "samples": 488
+  },
+  "plant_2": {
+    "mae": 693.8402,
+    "mse": 3171780.1339,
+    "rmse": 1780.9492,
+    "r2": 0.9,
+    "nrmse_range": 0.0794,
+    "nrmse_mean": 0.3992,
+    "samples": 490
+  },
+  "tier_low_power": {
+    "mae": 105.8848,
+    "mse": 801482.0423,
+    "rmse": 895.2553,
+    "r2": 0.5543,
+    "nrmse_range": 0.1551,
+    "nrmse_mean": 1.4688,
+    "samples": 626
+  },
+  "tier_med_power": {
+    "mae": 1070.0276,
+    "mse": 3185022.9302,
+    "rmse": 1784.6633,
+    "r2": 0.7622,
+    "nrmse_range": 0.1244,
+    "nrmse_mean": 0.1443,
+    "samples": 310
+  },
+  "tier_high_power": {
+    "mae": 1841.2291,
+    "mse": 6426313.1904,
+    "rmse": 2535.0174,
+    "r2": -0.2606,
+    "nrmse_range": 0.2997,
+    "nrmse_mean": 0.1072,
+    "samples": 42
+  }
+}

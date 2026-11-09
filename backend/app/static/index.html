@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Power Generation & Deviation Telemetry System</title>
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-card: #1e293b;
+            --bg-card-hover: #334155;
+            --border-color: #334155;
+            --text-primary: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-solar: #f59e0b;
+            --accent-solar-glow: rgba(245, 158, 11, 0.25);
+            --accent-blue: #38bdf8;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-purple: #a855f7;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 24px;
+        }
+
+        .header-title h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header-title p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-green);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: currentColor;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        /* Mode Selection Card */
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .card-header h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .card-subtitle {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Operation Selector Pills */
+        .option-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .option-pill {
+            background: rgba(15, 23, 42, 0.6);
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            padding: 14px 16px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .option-pill:hover {
+            border-color: var(--text-muted);
+            background: rgba(30, 41, 59, 0.8);
+        }
+
+        .option-pill.active {
+            border-color: var(--accent-solar);
+            background: rgba(245, 158, 11, 0.1);
+            box-shadow: 0 0 15px var(--accent-solar-glow);
+        }
+
+        .option-pill-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+        .option-pill-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #fff;
+        }
+
+        .option-checkbox {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--accent-solar);
+        }
+
+        .option-desc {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .selection-notice {
+            margin-top: 12px;
+            font-size: 0.82rem;
+            color: var(--accent-blue);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Layout Grid */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 900px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Form Controls */
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+
+        .input-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px 14px;
+            background: #0f172a;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.9rem;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--accent-solar);
+            box-shadow: 0 0 0 2px var(--accent-solar-glow);
+        }
+
+        .preset-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 18px;
+        }
+
+        .preset-btn {
+            background: #0f172a;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .preset-btn:hover {
+            color: #fff;
+            border-color: var(--accent-blue);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            border: none;
+            border-radius: 8px;
+            color: #000;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.1s, box-shadow 0.2s;
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+        }
+
+        .submit-btn:active {
+            transform: translateY(1px);
+        }
+
+        /* Results Display */
+        .result-box {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .metric-banner {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(15, 23, 42, 0.4));
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .metric-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .metric-value {
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: var(--accent-solar);
+            margin: 6px 0;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .metric-unit {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .detail-item {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .detail-item .label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .detail-item .val {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 2px;
+            color: #fff;
+        }
+
+        /* Severity Badges */
+        .badge-severity {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .badge-normal {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--accent-green);
+            border: 1px solid var(--accent-green);
+        }
+
+        .badge-moderate {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--accent-solar);
+            border: 1px solid var(--accent-solar);
+        }
+
+        .badge-significant {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--accent-red);
+            border: 1px solid var(--accent-red);
+        }
+
+        .badge-extreme {
+            background: rgba(168, 85, 247, 0.2);
+            color: var(--accent-purple);
+            border: 1px solid var(--accent-purple);
+        }
+
+        .attribution-box {
+            background: rgba(15, 23, 42, 0.8);
+            border-left: 4px solid var(--accent-solar);
+            padding: 14px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.85rem;
+        }
+
+        .attribution-box h4 {
+            font-size: 0.85rem;
+            color: var(--accent-solar);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .attribution-box ul {
+            padding-left: 18px;
+            color: var(--text-primary);
+        }
+
+        .attribution-box li {
+            margin-bottom: 4px;
+        }
+
+        /* JSON toggle */
+        .json-viewer {
+            margin-top: 14px;
+            background: #090d16;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+            font-family: monospace;
+            font-size: 0.78rem;
+            color: #38bdf8;
+            max-height: 220px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            display: none;
+        }
+
+        .toggle-json-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            cursor: pointer;
+            text-decoration: underline;
+            padding: 4px 0;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="header-title">
+            <h1>☀️ Solar Power Generation & Performance Deviation System</h1>
+            <p>Phase II Production Deployment — Real-time Physics Gating, Capacity Tracking & Root-Cause Diagnosis</p>
+        </div>
+        <div class="status-badge" id="api-health-badge">
+            <span class="status-dot"></span>
+            <span id="api-status-text">Connecting to FastAPI...</span>
+        </div>
+    </header>
+
+    <!-- Operation Selection Section -->
+    <div class="card">
+        <div class="card-header">
+            <div>
+                <h2>Select Operational Mode</h2>
+                <p class="card-subtitle">Choose 1 or up to 2 compatible analysis operations to execute simultaneously</p>
+            </div>
+            <div class="selection-notice" id="selection-counter">
+                <span>Selected: <strong>1 / 2</strong></span>
+            </div>
+        </div>
+
+        <div class="option-grid">
+            <!-- Option 1 -->
+            <div class="option-pill active" onclick="toggleOption('predict')">
+                <div class="option-pill-header">
+                    <span class="option-pill-title">1. Solar Power Prediction</span>
+                    <input type="checkbox" class="option-checkbox" id="opt-predict" checked onclick="event.stopPropagation(); toggleOption('predict')">
+                </div>
+                <p class="option-desc">Estimates plant AC output from irradiance, ambient & module temperatures with physical solar gating.</p>
+            </div>
+
+            <!-- Option 2 -->
+            <div class="option-pill" onclick="toggleOption('compare')">
+                <div class="option-pill-header">
+                    <span class="option-pill-title">2. Actual vs. Expected Comparison</span>
+                    <input type="checkbox" class="option-checkbox" id="opt-compare" onclick="event.stopPropagation(); toggleOption('compare')">
+                </div>
+                <p class="option-desc">Compares measured AC power against prediction to compute residual error and percentage variance.</p>
+            </div>
+
+            <!-- Option 3 -->
+            <div class="option-pill" onclick="toggleOption('deviation')">
+                <div class="option-pill-header">
+                    <span class="option-pill-title">3. Deviation & Root-Cause Analysis</span>
+                    <input type="checkbox" class="option-checkbox" id="opt-deviation" onclick="event.stopPropagation(); toggleOption('deviation')">
+                </div>
+                <p class="option-desc">Applies dynamic MAD thresholds to categorize severity and attributes causes (inverter trip, thermal derating, sensor drift).</p>
+            </div>
+
+            <!-- Option 4 -->
+            <div class="option-pill" onclick="toggleOption('benchmark')">
+                <div class="option-pill-header">
+                    <span class="option-pill-title">4. Plant Architecture & Benchmark</span>
+                    <input type="checkbox" class="option-checkbox" id="opt-benchmark" onclick="event.stopPropagation(); toggleOption('benchmark')">
+                </div>
+                <p class="option-desc">Inspects active ensemble model metadata, feature importance ranking, and historical test metrics.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Working Grid -->
+    <div class="main-grid">
+        <!-- Input Form Column -->
+        <div class="card">
+            <div class="card-header">
+                <h2>Telemetry Input Parameters</h2>
+                <span class="card-subtitle">Real-time SCADA / Meteorological Sensors</span>
+            </div>
+
+            <!-- Preset Scenarios -->
+            <label>Quick Presets for Testing Scenarios:</label>
+            <div class="preset-buttons">
+                <button type="button" class="preset-btn" onclick="applyPreset('noon')">☀️ Peak Sun (Noon)</button>
+                <button type="button" class="preset-btn" onclick="applyPreset('derated')">⚠️ 18 Inverters Active</button>
+                <button type="button" class="preset-btn" onclick="applyPreset('overheating')">🔥 Thermal Derating (60°C)</button>
+                <button type="button" class="preset-btn" onclick="applyPreset('trip')">⚡ Inverter Trip Deficit</button>
+                <button type="button" class="preset-btn" onclick="applyPreset('night')">🌙 Nighttime (0 kW Gated)</button>
+            </div>
+
+            <form id="solar-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="timestamp">Observation Timestamp (ISO / Local):</label>
+                    <input type="datetime-local" id="timestamp" required>
+                </div>
+
+                <div class="input-row">
+                    <div class="form-group">
+                        <label for="plant_id">Solar Power Plant:</label>
+                        <select id="plant_id" required>
+                            <option value="4135001" selected>Plant 1 (ID: 4135001 — 22 Inverters)</option>
+                            <option value="4136001">Plant 2 (ID: 4136001 — 22 Inverters)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="active_inverters">Active Reporting Inverters:</label>
+                        <input type="number" id="active_inverters" min="0" max="22" value="22" step="1" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="irradiation">Incident Solar Irradiance (kW/m²):</label>
+                    <input type="number" id="irradiation" min="0.0" max="1.6" step="0.01" value="0.82" required>
+                </div>
+
+                <div class="input-row">
+                    <div class="form-group">
+                        <label for="ambient_temperature">Ambient Air Temp (°C):</label>
+                        <input type="number" id="ambient_temperature" min="-10.0" max="60.0" step="0.1" value="33.5" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="module_temperature">PV Module Surface Temp (°C):</label>
+                        <input type="number" id="module_temperature" min="-10.0" max="90.0" step="0.1" value="51.2" required>
+                    </div>
+                </div>
+
+                <!-- Conditional Input for Actual Generation (Visible when Compare or Deviation is selected) -->
+                <div class="form-group hidden" id="actual-power-container">
+                    <label for="actual_ac_power" style="color: var(--accent-solar); font-weight: 600;">
+                        Measured Actual Generation AC_POWER (kW):
+                    </label>
+                    <input type="number" id="actual_ac_power" min="0.0" step="0.1" value="24500.0" placeholder="Enter actual power measured in kW">
+                </div>
+
+                <button type="submit" class="submit-btn" id="submit-btn">Run Analysis</button>
+            </form>
+        </div>
+
+        <!-- Output Results Column -->
+        <div class="card">
+            <div class="card-header">
+                <h2>Analysis Results & Telemetry Output</h2>
+                <span class="card-subtitle" id="execution-time">Awaiting request</span>
+            </div>
+
+            <div class="result-box" id="result-container">
+                <!-- Primary Power Banner -->
+                <div class="metric-banner">
+                    <div class="metric-label">Predicted Solar Generation</div>
+                    <div class="metric-value" id="display-predicted-power">--</div>
+                    <div class="metric-unit">Kilowatts (kW)</div>
+                    <div id="derating-alert" style="margin-top: 8px; font-size: 0.8rem; color: var(--accent-blue);"></div>
+                </div>
+
+                <!-- Comparison Metrics Box (Conditionally Visible) -->
+                <div class="details-grid hidden" id="comparison-details">
+                    <div class="detail-item">
+                        <div class="label">Actual Measured Power</div>
+                        <div class="val" id="disp-actual-power">--</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">Residual (Actual - Pred)</div>
+                        <div class="val" id="disp-residual">--</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">Absolute Deviation</div>
+                        <div class="val" id="disp-abs-dev">--</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">Percentage Variance</div>
+                        <div class="val" id="disp-pct-dev">--</div>
+                    </div>
+                </div>
+
+                <!-- Deviation Diagnosis Box (Conditionally Visible) -->
+                <div class="attribution-box hidden" id="deviation-details">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4>Operational Severity & Diagnosis</h4>
+                        <span class="badge-severity badge-normal" id="disp-severity">NORMAL</span>
+                    </div>
+                    <div id="attribution-content">
+                        <ul>
+                            <li>Normal operational parameters verified.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Plant Benchmark & Architecture Box (Conditionally Visible) -->
+                <div class="card hidden" id="benchmark-details" style="background: rgba(15, 23, 42, 0.4); margin-bottom: 0;">
+                    <h3 style="font-size: 0.95rem; margin-bottom: 10px; color: var(--accent-blue);">Active Model Architecture Manifest</h3>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <div class="label">Model Architecture</div>
+                            <div class="val" id="disp-model-name" style="font-size: 0.9rem;">--</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="label">Active Version</div>
+                            <div class="val" id="disp-model-version">--</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="label">Overall Test R²</div>
+                            <div class="val" id="disp-r2" style="color: var(--accent-green);">--</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="label">Overall Test MAE</div>
+                            <div class="val" id="disp-mae">--</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Raw JSON Accordion -->
+                <div>
+                    <button type="button" class="toggle-json-btn" onclick="toggleJsonViewer()">View Raw API JSON Payload</button>
+                    <pre class="json-viewer" id="json-viewer"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // State management for active analysis options
+    const activeOptions = new Set(['predict']);
+
+    // Initialize default timestamp to today at 12:00
+    window.addEventListener('DOMContentLoaded', () => {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        document.getElementById('timestamp').value = `${year}-${month}-${day}T12:00`;
+        checkBackendHealth();
+    });
+
+    async function checkBackendHealth() {
+        const badge = document.getElementById('api-health-badge');
+        const statusText = document.getElementById('api-status-text');
+        try {
+            const res = await fetch('/health');
+            const data = await res.json();
+            if (data.status === 'HEALTHY' && data.model_loaded) {
+                statusText.innerText = `FastAPI Online (${data.active_model_version})`;
+                badge.style.color = 'var(--accent-green)';
+            } else {
+                statusText.innerText = `FastAPI Degraded`;
+                badge.style.color = 'var(--accent-solar)';
+            }
+        } catch (e) {
+            statusText.innerText = 'FastAPI Offline / Disconnected';
+            badge.style.color = 'var(--accent-red)';
+        }
+    }
+
+    function toggleOption(optKey) {
+        if (activeOptions.has(optKey)) {
+            if (activeOptions.size === 1) {
+                alert('At least one operational mode must remain active.');
+                return;
+            }
+            activeOptions.delete(optKey);
+        } else {
+            if (activeOptions.size >= 2) {
+                alert('You can select a maximum of 2 compatible analysis options at a time.');
+                return;
+            }
+            activeOptions.add(optKey);
+        }
+        updateOptionUI();
+    }
+
+    function updateOptionUI() {
+        ['predict', 'compare', 'deviation', 'benchmark'].forEach(key => {
+            const pill = document.querySelector(`.option-pill[onclick*="${key}"]`);
+            const checkbox = document.getElementById(`opt-${key}`);
+            const isActive = activeOptions.has(key);
+            if (pill) pill.classList.toggle('active', isActive);
+            if (checkbox) checkbox.checked = isActive;
+        });
+
+        document.getElementById('selection-counter').innerHTML = `Selected: <strong>${activeOptions.size} / 2</strong>`;
+
+        // Show actual power input if Comparison or Deviation is selected
+        const needsActual = activeOptions.has('compare') || activeOptions.has('deviation');
+        const actualContainer = document.getElementById('actual-power-container');
+        const actualInput = document.getElementById('actual_ac_power');
+        if (needsActual) {
+            actualContainer.classList.remove('hidden');
+            actualInput.setAttribute('required', 'required');
+        } else {
+            actualContainer.classList.add('hidden');
+            actualInput.removeAttribute('required');
+        }
+    }
+
+    function applyPreset(presetType) {
+        const irrInput = document.getElementById('irradiation');
+        const ambInput = document.getElementById('ambient_temperature');
+        const modInput = document.getElementById('module_temperature');
+        const invInput = document.getElementById('active_inverters');
+        const actInput = document.getElementById('actual_ac_power');
+        const timeInput = document.getElementById('timestamp');
+
+        const datePrefix = timeInput.value.split('T')[0] || '2020-05-15';
+
+        if (presetType === 'noon') {
+            timeInput.value = `${datePrefix}T12:00`;
+            irrInput.value = 0.85;
+            ambInput.value = 34.0;
+            modInput.value = 52.0;
+            invInput.value = 22;
+            actInput.value = 24800.0;
+        } else if (presetType === 'derated') {
+            timeInput.value = `${datePrefix}T12:00`;
+            irrInput.value = 0.82;
+            ambInput.value = 33.0;
+            modInput.value = 50.0;
+            invInput.value = 18; // 18 inverters
+            actInput.value = 19500.0;
+        } else if (presetType === 'overheating') {
+            timeInput.value = `${datePrefix}T13:30`;
+            irrInput.value = 0.95;
+            ambInput.value = 39.5;
+            modInput.value = 62.0; // Overheating
+            invInput.value = 22;
+            actInput.value = 21000.0;
+        } else if (presetType === 'trip') {
+            timeInput.value = `${datePrefix}T12:00`;
+            irrInput.value = 0.88;
+            ambInput.value = 35.0;
+            modInput.value = 54.0;
+            invInput.value = 22;
+            actInput.value = 200.0; // Extreme drop
+        } else if (presetType === 'night') {
+            timeInput.value = `${datePrefix}T01:30`;
+            irrInput.value = 0.0;
+            ambInput.value = 23.0;
+            modInput.value = 22.0;
+            invInput.value = 22;
+            actInput.value = 0.0;
+        }
+    }
+
+    async function handleFormSubmit(event) {
+        event.preventDefault();
+        const submitBtn = document.getElementById('submit-btn');
+        const execLabel = document.getElementById('execution-time');
+        submitBtn.disabled = true;
+        submitBtn.innerText = 'Executing Model Inference...';
+        execLabel.innerText = 'Processing...';
+
+        const rawTimestamp = document.getElementById('timestamp').value;
+        const isoTimestamp = new Date(rawTimestamp).toISOString();
+
+        const plantId = parseInt(document.getElementById('plant_id').value);
+        const irradiation = parseFloat(document.getElementById('irradiation').value);
+        const ambientTemp = parseFloat(document.getElementById('ambient_temperature').value);
+        const moduleTemp = parseFloat(document.getElementById('module_temperature').value);
+        const activeInverters = parseInt(document.getElementById('active_inverters').value);
+        const actualPower = parseFloat(document.getElementById('actual_ac_power').value) || 0.0;
+
+        const payload = {
+            timestamp: isoTimestamp,
+            plant_id: plantId,
+            irradiation: irradiation,
+            ambient_temperature: ambientTemp,
+            module_temperature: moduleTemp,
+            active_inverters: activeInverters,
+        };
+
+        const t0 = performance.now();
+        let aggregatedJson = {};
+
+        try {
+            // 1. Prediction / Comparison execution
+            let predictedPower = 0.0;
+            let devData = null;
+
+            if (activeOptions.has('deviation') || activeOptions.has('compare')) {
+                const devPayload = { ...payload, actual_ac_power: actualPower };
+                const res = await fetch('/api/v1/deviations/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(devPayload),
+                });
+                if (!res.ok) throw new Error(`Deviation API Error: ${res.statusText}`);
+                devData = await res.json();
+                predictedPower = devData.predicted_ac_power;
+                aggregatedJson.deviation_analysis = devData;
+            } else {
+                const res = await fetch('/api/v1/predict', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+                if (!res.ok) throw new Error(`Prediction API Error: ${res.statusText}`);
+                const predData = await res.json();
+                predictedPower = predData.predicted_ac_power;
+                aggregatedJson.prediction = predData;
+            }
+
+            // 2. Benchmark data if requested
+            if (activeOptions.has('benchmark')) {
+                const res = await fetch('/api/v1/model/info');
+                if (res.ok) {
+                    const infoData = await res.json();
+                    aggregatedJson.model_manifest = infoData;
+                    displayBenchmark(infoData);
+                }
+            } else {
+                document.getElementById('benchmark-details').classList.add('hidden');
+            }
+
+            // Render primary power display
+            document.getElementById('display-predicted-power').innerText = predictedPower.toLocaleString(undefined, {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+            });
+
+            // Derating note
+            const derateDiv = document.getElementById('derating-alert');
+            if (activeInverters < 22) {
+                const pct = ((activeInverters / 22) * 100).toFixed(1);
+                derateDiv.innerText = `Capacity derated to ${activeInverters}/22 inverters (${pct}%)`;
+            } else if (irradiation <= 0) {
+                derateDiv.innerText = `Nighttime Gating Active (Zero Solar Flux)`;
+            } else {
+                derateDiv.innerText = `Full Nominal Capacity (22 Inverters Online)`;
+            }
+
+            // Render comparison if active
+            const compDiv = document.getElementById('comparison-details');
+            if (activeOptions.has('compare') && devData) {
+                compDiv.classList.remove('hidden');
+                document.getElementById('disp-actual-power').innerText = `${devData.actual_ac_power.toLocaleString()} kW`;
+                document.getElementById('disp-residual').innerText = `${devData.residual > 0 ? '+' : ''}${devData.residual.toFixed(2)} kW`;
+                document.getElementById('disp-abs-dev').innerText = `${devData.absolute_deviation.toFixed(2)} kW`;
+                document.getElementById('disp-pct-dev').innerText = devData.deviation_percentage !== null ? `${devData.deviation_percentage > 0 ? '+' : ''}${devData.deviation_percentage.toFixed(1)}%` : 'N/A';
+            } else {
+                compDiv.classList.add('hidden');
+            }
+
+            // Render deviation if active
+            const devDiv = document.getElementById('deviation-details');
+            if (activeOptions.has('deviation') && devData) {
+                devDiv.classList.remove('hidden');
+                const sevBadge = document.getElementById('disp-severity');
+                sevBadge.innerText = devData.severity;
+                sevBadge.className = 'badge-severity ' + getSeverityClass(devData.severity);
+
+                const attrContent = document.getElementById('attribution-content');
+                if (devData.contributing_conditions && devData.contributing_conditions.length > 0) {
+                    attrContent.innerHTML = '<ul>' + devData.contributing_conditions.map(c => `<li>${c}</li>`).join('') + '</ul>';
+                } else {
+                    attrContent.innerHTML = '<ul><li>All operating variables within dynamic MAD statistical confidence interval.</li></ul>';
+                }
+            } else {
+                devDiv.classList.add('hidden');
+            }
+
+            const latency = Math.round(performance.now() - t0);
+            execLabel.innerText = `Completed in ${latency} ms`;
+            document.getElementById('json-viewer').innerText = JSON.stringify(aggregatedJson, null, 2);
+
+        } catch (err) {
+            alert(`Error running prediction: ${err.message}`);
+            execLabel.innerText = 'Failed';
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.innerText = 'Run Analysis';
+        }
+    }
+
+    function displayBenchmark(info) {
+        const bDiv = document.getElementById('benchmark-details');
+        bDiv.classList.remove('hidden');
+        document.getElementById('disp-model-name').innerText = info.model_name.replace(/_/g, ' ');
+        document.getElementById('disp-model-version').innerText = info.model_version;
+        const metrics = info.validation_metrics.overall || {};
+        document.getElementById('disp-r2').innerText = metrics.r2 ? metrics.r2.toFixed(4) : '--';
+        document.getElementById('disp-mae').innerText = metrics.mae ? `${metrics.mae.toFixed(1)} kW` : '--';
+    }
+
+    function getSeverityClass(severity) {
+        switch (severity) {
+            case 'Normal': return 'badge-normal';
+            case 'Moderate Deviation': return 'badge-moderate';
+            case 'Significant Deviation': return 'badge-significant';
+            case 'Extreme Deviation': return 'badge-extreme';
+            default: return 'badge-normal';
+        }
+    }
+
+    function toggleJsonViewer() {
+        const viewer = document.getElementById('json-viewer');
+        viewer.style.display = (viewer.style.display === 'block') ? 'none' : 'block';
+    }
+</script>
+</body>
+</html>
