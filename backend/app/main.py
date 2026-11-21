@@ -17,6 +17,7 @@ from app.database.session import engine, Base, SessionLocal
 from app.api.health import router as health_router
 from app.api.v1.endpoints import router as v1_router
 from app.services.ml_service import ml_service
+from app.api.forecast import router as forecast_router
 
 logging.basicConfig(
     level=logging.INFO,
@@ -92,6 +93,7 @@ if STATIC_DIR.exists():
 # Mount API routers
 app.include_router(health_router, tags=["Health & Diagnostics"])
 app.include_router(v1_router, prefix=settings.API_V1_STR, tags=["Solar Power & Deviation Telemetry"])
+app.include_router(forecast_router)
 
 
 if __name__ == "__main__":
